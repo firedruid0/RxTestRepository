@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RxTest</string>
+    <string name="base_url">http://61.164.207.202:10002/mapi/</string>
+</resources>
