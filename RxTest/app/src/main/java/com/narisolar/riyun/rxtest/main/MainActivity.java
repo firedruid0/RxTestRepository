@@ -1,4 +1,4 @@
-package com.narisolar.riyun.rxtest;
+package com.narisolar.riyun.rxtest.main;
 
 import android.databinding.DataBindingUtil;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.narisolar.riyun.rxtest.R;
 import com.narisolar.riyun.rxtest.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity implements MainContract.View {
@@ -27,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements MainContract.View
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
+        binding = DataBindingUtil.setContentView(this, R.layout.main_act);
     }
 
     @Override

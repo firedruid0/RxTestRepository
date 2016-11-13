@@ -1,5 +1,7 @@
-package com.narisolar.riyun.rxtest;
+package com.narisolar.riyun.rxtest.main;
 
+import com.narisolar.riyun.rxtest.BasePresenter;
+import com.narisolar.riyun.rxtest.BaseView;
 import com.narisolar.riyun.rxtest.data.LoginParam;
 
 /**

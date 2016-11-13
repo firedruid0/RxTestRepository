@@ -11,7 +11,7 @@ import rx.Observable;
  * Created by Administrator on 2016/11/3.
  */
 
-public interface LoginApi {
+public interface LoginService {
 
     @FormUrlEncoded
     @POST("user/login")
