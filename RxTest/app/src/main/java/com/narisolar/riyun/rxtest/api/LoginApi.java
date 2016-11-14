@@ -1,4 +1,4 @@
-package com.narisolar.riyun.rxtest;
+package com.narisolar.riyun.rxtest.api;
 
 import com.narisolar.riyun.rxtest.data.UserInfo;
 
@@ -11,7 +11,7 @@ import rx.Observable;
  * Created by Administrator on 2016/11/3.
  */
 
-public interface LoginService {
+public interface LoginApi {
 
     @FormUrlEncoded
     @POST("user/login")

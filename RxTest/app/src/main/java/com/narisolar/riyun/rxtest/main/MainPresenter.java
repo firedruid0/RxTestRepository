@@ -1,6 +1,6 @@
 package com.narisolar.riyun.rxtest.main;
 
-import com.narisolar.riyun.rxtest.LoginService;
+import com.narisolar.riyun.rxtest.api.LoginApi;
 import com.narisolar.riyun.rxtest.data.LoginParam;
 import com.narisolar.riyun.rxtest.data.UserInfo;
 
@@ -45,9 +45,9 @@ public class MainPresenter implements MainContract.Presenter {
                 .baseUrl("@string/base_url")
                 .build();
 
-        LoginService loginService = retrofit.create(LoginService.class);
+        LoginApi loginApi = retrofit.create(LoginApi.class);
 
-        Observable<UserInfo> userInfoObservable = loginService.login(loginParam.getAccount(), loginParam.getPassword());
+        Observable<UserInfo> userInfoObservable = loginApi.login(loginParam.getAccount(), loginParam.getPassword());
 
 
     }

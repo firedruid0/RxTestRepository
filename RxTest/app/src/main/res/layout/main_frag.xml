@@ -2,7 +2,12 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
     <data>
-
+        <variable
+            name="viewModel"
+            type="com.narisolar.riyun.rxtest.main.MainViewModel"/>
+        <variable
+            name="presenter"
+            type="com.narisolar.riyun.rxtest.main.MainPresenter"/>
     </data>
 
     <LinearLayout
@@ -14,13 +19,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="用户名"
-            android:text="@{loginParam.account}"/>
+            android:text="@{viewModel.mLoginParam.account}"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="密码"
-            android:text="@{loginParam.password}"/>
+            android:text="@{viewModel.mloginParam.password}"/>
 
         <Button
             android:layout_width="wrap_content"
@@ -30,7 +35,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text='@{"userId: " + userInfo.data.userId + " nickname: " + userInfo.data.nickname}'/>
+            android:text='@{viewModel.result}'/>
 
     </LinearLayout>
 
