@@ -4,6 +4,7 @@ import android.content.Context;
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
 
+import com.narisolar.riyun.rxtest.BR;
 import com.narisolar.riyun.rxtest.data.LoginParam;
 import com.narisolar.riyun.rxtest.data.UserInfo;
 
@@ -26,20 +27,24 @@ public class MainViewModel extends BaseObservable {
         this.mContext = mContext;
     }
 
+    @Bindable
     public LoginParam getmLoginParam() {
         return mLoginParam;
     }
 
     public void setmLoginParam(LoginParam mLoginParam) {
         this.mLoginParam = mLoginParam;
+        notifyPropertyChanged(BR.mLoginParam);
     }
 
+    @Bindable
     public UserInfo getmUserInfo() {
         return mUserInfo;
     }
 
     public void setmUserInfo(UserInfo mUserInfo) {
         this.mUserInfo = mUserInfo;
+        notifyPropertyChanged(BR.mUserInfo);
     }
 
     @Bindable

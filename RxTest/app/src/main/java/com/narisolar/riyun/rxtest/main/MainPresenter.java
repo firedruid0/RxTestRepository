@@ -9,6 +9,8 @@ import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 import rx.Observable;
 import rx.Subscriber;
+import rx.android.schedulers.AndroidSchedulers;
+import rx.schedulers.Schedulers;
 
 /**
  * Created by Administrator on 2016/11/4.
@@ -17,6 +19,10 @@ import rx.Subscriber;
 public class MainPresenter implements MainContract.Presenter {
 
     private MainContract.View mMainView;
+
+    public MainPresenter(MainContract.View mMainView) {
+        this.mMainView = mMainView;
+    }
 
     private Subscriber<UserInfo> subscriber = new Subscriber<UserInfo>() {
         @Override
@@ -32,7 +38,7 @@ public class MainPresenter implements MainContract.Presenter {
         @Override
         public void onNext(UserInfo userInfo) {
 
-
+            mMainView.updateUserInfo(userInfo);
         }
     };
 
@@ -49,6 +55,9 @@ public class MainPresenter implements MainContract.Presenter {
 
         Observable<UserInfo> userInfoObservable = loginApi.login(loginParam.getAccount(), loginParam.getPassword());
 
+        userInfoObservable.subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(subscriber);
 
     }
 

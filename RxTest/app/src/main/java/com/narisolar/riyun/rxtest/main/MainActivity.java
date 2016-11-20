@@ -1,38 +1,32 @@
 package com.narisolar.riyun.rxtest.main;
 
-import android.databinding.DataBindingUtil;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
+import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
 
 import com.narisolar.riyun.rxtest.R;
-import com.narisolar.riyun.rxtest.databinding.ActivityMainBinding;
+import com.narisolar.riyun.rxtest.util.ActivityUtils;
 
-public class MainActivity extends AppCompatActivity implements MainContract.View {
+public class MainActivity extends AppCompatActivity {
 
-    private MainContract.Presenter mPresenter;
-
-    private EditText mEtAccount;
-
-    private EditText mEtPassword;
-
-    private Button mBtLogin;
-
-    private TextView mTvUserInfo;
-
-    private ActivityMainBinding binding;
+    private MainPresenter mMainPresenter;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.main_act);
 
-        binding = DataBindingUtil.setContentView(this, R.layout.main_act);
-    }
+        MainFragment mainFragment = (MainFragment) getFragmentManager().findFragmentById(R.id.contentFrame);
+        if (mainFragment == null) {
+            mainFragment = MainFragment.newInstance();
+            ActivityUtils.addFragmentToActivity(getFragmentManager(), mainFragment, R.id.contentFrame);
+        }
 
-    @Override
-    public void setPresenter(MainContract.Presenter presenter) {
-        mPresenter = presenter
+        mMainPresenter = new MainPresenter(mainFragment);
+
+        MainViewModel mainViewModel = new MainViewModel(mMainPresenter, getApplicationContext());
+
+        mainFragment.setViewModel(mainViewModel);
+
     }
 }
