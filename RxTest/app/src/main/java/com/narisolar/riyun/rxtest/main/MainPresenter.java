@@ -20,8 +20,10 @@ public class MainPresenter implements MainContract.Presenter {
 
     private MainContract.View mMainView;
 
-    public MainPresenter(MainContract.View mMainView) {
-        this.mMainView = mMainView;
+    public MainPresenter(MainContract.View view) {
+        //this.mMainView = mMainView;
+        mMainView = view;
+        mMainView.setPresenter(this);
     }
 
     private Subscriber<UserInfo> subscriber = new Subscriber<UserInfo>() {
@@ -39,21 +41,25 @@ public class MainPresenter implements MainContract.Presenter {
         public void onNext(UserInfo userInfo) {
 
             mMainView.updateUserInfo(userInfo);
+            System.out.println(userInfo);
         }
     };
 
     @Override
-    public void login(LoginParam loginParam) {
+    public void login(MainViewModel viewModel) {
 
+        System.out.println("into presenter");
         Retrofit retrofit = new Retrofit.Builder()
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create())
-                .baseUrl("@string/base_url")
+                .baseUrl("http://61.164.207.202:10002/mapi/")
                 .build();
 
         LoginApi loginApi = retrofit.create(LoginApi.class);
 
-        Observable<UserInfo> userInfoObservable = loginApi.login(loginParam.getAccount(), loginParam.getPassword());
+        Observable<UserInfo> userInfoObservable = loginApi.login(viewModel.getAccount(), viewModel.getPassword());
+
+        System.out.println(userInfoObservable.toString());
 
         userInfoObservable.subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())

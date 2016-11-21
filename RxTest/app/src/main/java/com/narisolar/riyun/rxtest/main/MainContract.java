@@ -19,7 +19,7 @@ public interface MainContract {
 
     interface Presenter extends BasePresenter {
 
-        void login(LoginParam loginParam);
+        void login(MainViewModel mainViewModel);
     }
 
 }

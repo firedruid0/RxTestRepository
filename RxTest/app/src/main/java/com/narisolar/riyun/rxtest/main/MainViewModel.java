@@ -4,6 +4,7 @@ import android.content.Context;
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
 
+import com.android.annotations.Nullable;
 import com.narisolar.riyun.rxtest.BR;
 import com.narisolar.riyun.rxtest.data.LoginParam;
 import com.narisolar.riyun.rxtest.data.UserInfo;
@@ -25,24 +26,47 @@ public class MainViewModel extends BaseObservable {
     public MainViewModel(MainContract.Presenter mPresenter, Context mContext) {
         this.mPresenter = mPresenter;
         this.mContext = mContext;
+        mLoginParam = new LoginParam("","");
+        mUserInfo = new UserInfo("","",null);
+        mUserInfo.setData(mUserInfo.new Data("",""));
     }
 
     @Bindable
-    public LoginParam getmLoginParam() {
+    public String getAccount() {
+        return mLoginParam.getAccount();
+    }
+
+    @Bindable
+    public String getPassword() {
+        return mLoginParam.getPassword();
+    }
+
+    public void setAccount(String account) {
+        mLoginParam.setAccount(account);
+        notifyPropertyChanged(BR.mLoginParam);
+    }
+
+    public void setPassword(String password) {
+        mLoginParam.setPassword(password);
+        notifyPropertyChanged(BR.mLoginParam);
+    }
+
+    @Bindable
+    public LoginParam getMLoginParam() {
         return mLoginParam;
     }
 
-    public void setmLoginParam(LoginParam mLoginParam) {
+    public void setMLoginParam(LoginParam mLoginParam) {
         this.mLoginParam = mLoginParam;
         notifyPropertyChanged(BR.mLoginParam);
     }
 
     @Bindable
-    public UserInfo getmUserInfo() {
+    public UserInfo getMUserInfo() {
         return mUserInfo;
     }
 
-    public void setmUserInfo(UserInfo mUserInfo) {
+    public void setMUserInfo(UserInfo mUserInfo) {
         this.mUserInfo = mUserInfo;
         notifyPropertyChanged(BR.mUserInfo);
     }

@@ -19,19 +19,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="用户名"
-            android:text="@{viewModel.mLoginParam.account}"/>
+            android:text="@{viewModel.account}"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="密码"
-            android:text="@{viewModel.mloginParam.password}"/>
+            android:text="@{viewModel.password}"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="login"
-            android:onClick="@{() -> presenter.login(viewModel.mLoginParam)}"/>
+            android:onClick="@{() -> presenter.login(viewModel)}"/>
 
         <TextView
             android:layout_width="wrap_content"

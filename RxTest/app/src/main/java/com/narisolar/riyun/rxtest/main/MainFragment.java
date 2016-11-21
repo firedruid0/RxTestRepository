@@ -2,12 +2,12 @@ package com.narisolar.riyun.rxtest.main;
 
 import android.app.Fragment;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.android.annotations.NonNull;
+import com.android.annotations.Nullable;
 import com.narisolar.riyun.rxtest.data.UserInfo;
 import com.narisolar.riyun.rxtest.databinding.MainFragBinding;
 
@@ -61,6 +61,6 @@ public class MainFragment extends Fragment implements MainContract.View {
 
     @Override
     public void updateUserInfo(UserInfo userInfo) {
-        mMainViewModel.setmUserInfo(userInfo);
+        mMainViewModel.setMUserInfo(userInfo);
     }
 }

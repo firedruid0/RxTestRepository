@@ -1,9 +1,9 @@
 package com.narisolar.riyun.rxtest.main;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
+import com.android.annotations.Nullable;
 import com.narisolar.riyun.rxtest.R;
 import com.narisolar.riyun.rxtest.util.ActivityUtils;
 

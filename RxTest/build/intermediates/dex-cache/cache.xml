@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\lc\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.4.1\381fc1096ba65040d8e80ea43b2e1d9bad02345e\logging-interceptor-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="381fc1096ba65040d8e80ea43b2e1d9bad02345e">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.4.1_d4c8e9864b5e474868c1ae39a8a866f2db42a147\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\RxTestRepository\RxTest\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_3c9ef651b0294ba9390bcb1f9daeee6b152f1ee7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\RxTestRepository\RxTest\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_18654412aad574bb0767796e65712ae8dd693c41\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\RxTestRepository\RxTest\app\build\intermediates\exploded-aar\com.android.databinding\adapters\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.databinding-adapters-1.2.1_f736bf8b75e86633071eb6c7668dacd61fa8937d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\RxTestRepository\RxTest\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_da1e71869f6fa5be12ea81cc20e18b332d472b7c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\RxTestRepository\RxTest\app\build\intermediates\exploded-aar\com.android.databinding\library\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.databinding-library-1.2.1_096330a06257c3a2dad7e6473bd5bfb40663472d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\RxTestRepository\RxTest\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_0a040f425526d7f5de04719cfa7ff26b08aac76f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\RxTestRepository\RxTest\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.reactivex-rxandroid-1.2.1_c6f83971e2e395d6c2cf101a1e16f2cc15458e21\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\RxTestRepository\RxTest\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_2e55e2f22b5d66c89dfd39fb31f0b334a36a6cf4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\RxTestRepository\RxTest\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_48bd198e19d8793e72d9907e1f718b45e139b657\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lc\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_7f61def6ff9004e3bd7eb6f6722d292914ba8d33\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\SOFT\AS\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_c74c1ad443d963c98f6328fd59398d920165dcbb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\RxTestRepository\RxTest\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c50301847398766996797716e2488bdf088df620">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d136f6c285ec72df3a4c69db7106f9fbfb8c57d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lc\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.7\45aaffc3cf6fa7c9b9eed6121369cad25789cf4a\rxjava-1.1.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="45aaffc3cf6fa7c9b9eed6121369cad25789cf4a">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.1.7_5c3d45d63c19561111290540f240352932f5942d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lc\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_2d7279e67ccf565459b2ab895d68e4744c8291b3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\SOFT\AS\Android Studio\gradle\m2repository\com\android\databinding\baseLibrary\2.2.2\baseLibrary-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8e3519b9d5287840df40776a8268ae336ca9f063">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\baseLibrary-2.2.2_7c2bb41ea80f78898a3c1c3443aac7729d1234e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lc\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_498fce33a50de146286a80bdd4af3cc711d812ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lc\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.1.0\693eddc23e87ab13f9cf5001707ce8e7e1d1ff01\adapter-rxjava-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\adapter-rxjava-2.1.0_2b0e2fb3dbea9fd48c2235184b06316f77ea0c99\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\RxTestRepository\RxTest\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_956f5a5fe9dbb27705d7dbeac74cc9d4366fabdb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\RxTestRepository\RxTest\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_62a35c7e93c466f363dcee22b22bc8e74da555bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\RxTestRepository\RxTest\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_fc0f9a5f8d2ffd28bf53b665c64b2f6bc42167e9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\RxTestRepository\RxTest\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_b5a00683fbe17716ff7e30a31afa8063abfcbd4d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\RxTestRepository\RxTest\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e5ddd2228d206b5a6120a5c95b0233170ff5e1b2">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1ba2d2642c8b8d872995fefddcb4ab7c8d81a8bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lc\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.4.1_bcac76a935efe0a6012cb1d9fef353a2be82d069\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\RxTestRepository\RxTest\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_4e29ab7767645bc2afbd7e1aa1866996fd0a3694\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lc\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.9.0_24a1caafbb2c190b198e21c22a0a3d79c92bc296\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\RxTestRepository\RxTest\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_72ed7c4fa65494071a2bf91e9d13caf1b198d9f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\RxTestRepository\RxTest\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_310c845497f70a20e3aabb549400c5527b4d7c1a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\RxTestRepository\RxTest\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="F:\Github\RxTestRepository\RxTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_bb94709f035da7aaa58ae9c74404f92f6e0e6abd\classes.dex" />
+    </item>
+
+</items>
